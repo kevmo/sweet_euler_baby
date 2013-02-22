@@ -13,13 +13,13 @@ Hence the difference between the sum of the squares of the
 Find the difference between the sum of the squares of the 
 first one hundred natural numbers and the square of the sum.
 
+EDIT: I violated DRY pretty badly below. 
 
 */
 
-var sum_squared=0;
-squared_sums=0;
-
 function sum_square_difference(num){
+	var sum_squared=0;
+	var squared_sums=0;
 	for (i=1;i<=num;i++){
 		sum_squared += i;
 	};
